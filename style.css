@@ -1,0 +1,151 @@
+
+/* For Form */
+  .fill-style{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.to-register{
+    text-decoration: none;
+    color: crimson;
+}
+
+
+/* jadwal.php */
+
+.list-tiket .tiket{
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    padding: 20px; border: solid 1px #b0adad; border-radius:10px;
+}
+
+.list-tiket .tiket .train-num{
+     font-size: 26px;
+}
+
+.list-tiket .tiket .time-num{
+    font-size: 26px;
+}
+.list-tiket .tiket .time-numf{
+    font-size: 26px;
+    color: crimson;
+}
+ 
+.tiket .time-zone{
+    font-size: 12px;
+    color: crimson;
+
+}
+
+.tiket .keterangan .harga{
+    font-weight: bold;
+}
+
+
+
+/* kelas.php */
+.container-info .head1{
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #b0adad;
+    padding: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.container-info .head2 {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid #b0adad;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+.left{
+    margin: 20px 20px 10px 20px;
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    padding: 20px; border: solid 1px #b0adad; border-radius:10px;
+    height: 350px;
+}
+
+.right{
+    margin: 20px 10px 10px 20px;
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    padding: 20px; border: solid 1px #b0adad; border-radius:10px;
+    height: 200px;
+}
+
+.pad10{
+    padding: 10px;
+}
+
+.kelas{
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    padding: 20px; border: solid 1px #b0adad;
+    border-radius:10px;
+    margin: 0 5px 0 5px;
+    
+    
+}
+
+
+.jadwal-num{
+    font-size: 26px;
+}
+
+.time-num{
+    font-size: 26px;
+}
+
+.time-numf{
+    font-size: 26px;
+    color: crimson;
+}
+
+.mtop20{
+    margin-top: 20px !important;
+}
+
+ .next, .prev{
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    margin: 0 5px 0 5px;
+}
+
+/* Overlay */
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Warna hitam dengan opacity */
+    display: none; /* Tersembunyi secara default */
+    z-index: 9; /* Lebih rendah dari tombol */
+}
+
+#box{
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+}
+
+#box .head1{
+    display: flex;
+    justify-content: start;
+    border-bottom: 2px solid #b0adad;
+    font-size: 20px;
+   
+}

@@ -1,0 +1,102 @@
+.container-payment{
+    width: 40vw;
+    margin: auto;
+    box-shadow: 0px 1px 5px 2px #b0adad;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+.row-red{
+    background-color: crimson;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.row-dataPass{
+    color: #b0adad;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.row-price{
+    color: crimson;
+    text-align: center;
+    padding: 10px;
+}
+.row-price span{
+    color: crimson;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container-method{
+    padding: 10px;
+}
+
+.container-method .row-va{
+    text-align: center;
+    line-height: 3;
+    margin: 10px;
+    border: solid 1px #b0adad;
+    padding-bottom: 15px;
+    
+}
+
+.container-method .row-head{
+    padding: 10px;
+    background-color: pink;
+}
+
+.container-method .row-bayar{
+   
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.row-bayar input[type="radio"] {
+    display: none;
+}
+
+.row-bayar label {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+}
+.row-bayar label::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border: 2px solid crimson;
+    border-radius: 50%;
+    background-color: white;
+}
+.row-bayar input[type="radio"]:checked + label::before {
+    background-color: crimson;
+}
+
+
+.pay-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 10vw;
+}
